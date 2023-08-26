@@ -1,0 +1,48 @@
+body{
+    display: block;
+    margin: 200px;
+    margin-top: 10px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.nav{
+    display: flex;
+}
+.ma-logo {
+    width: 40px;
+    height: 40px;
+    background-color: #833ae0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+li{
+    padding: 0px 30px 4px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+    transition: border-bottom ease .5s;
+}
+article{
+    width: 70%;
+    display: block;
+}
+aside{
+    width: 20%;
+    background-color: lavender;
+    padding: 20px;
+    display: block;
+    float: right;
+}
